@@ -1,8 +1,8 @@
 # Firebase Samples
 
-This app currently has sample cod to implement Firebase's ML Kit
+This app currently has sample code to implement Firebase's ML Kit
 I plan to include samples for other Firebase Products/Services in the near future
----
+----
 # Getting Started
 ##### What You'll Need
 - Android Device for testing with Android Version 4.1 (API16) or above
@@ -29,13 +29,13 @@ I plan to include samples for other Firebase Products/Services in the near futur
 - [CameraView](https://github.com/natario1/CameraView)
 - [Runtime Permission Kotlin](https://github.com/florent37/RuntimePermission)
 - [Android Material Play Pause View](https://github.com/OHoussein/android-material-play-pause-view)
+
 ### Development
 
 Want to contribute? Great!
 Just create PRs and I'll merge them if they are useful
----
-License
 ----
+## License
    Copyright 2018 Shripal Jain
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
