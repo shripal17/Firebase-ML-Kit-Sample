@@ -20,8 +20,9 @@ I plan to include samples for other Firebase Products/Services in the near futur
 - [x] Landmarks Recognition (Cloud)
 
 ## Screenshots
-|Home|Splash|About|
-|![Splash](art/Screenshot_20180903-225130.png)|![Home](art/Screenshot_20180903-225141.png)|![About](art/Screenshot_20180903-225151.png)|
+![Splash](art/Screenshot_20180903-225130.png)
+![Home](art/Screenshot_20180903-225141.png)
+![About](art/Screenshot_20180903-225151.png)
 
 ## Download
 <a href='https://play.google.com/store/apps/details?id=https://play.google.com/store/apps/details?id=com.codertainment.firebasesamples&utm_source=github&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height="120"/></a>
