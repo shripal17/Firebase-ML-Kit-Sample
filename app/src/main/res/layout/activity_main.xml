@@ -27,19 +27,56 @@
     android:id="@+id/bottom_sheet"
     layout="@layout/bottom_sheet"/>
 
-  <com.ohoussein.playpause.PlayPauseView
-    android:id="@+id/camera_play_pause"
-    android:layout_width="64dp"
-    android:layout_height="64dp"
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:layout_marginBottom="30dp"
     android:layout_marginEnd="16dp"
     android:layout_marginRight="16dp"
     android:elevation="8dp"
-    android:foreground="?android:selectableItemBackground"
-    app:fill_color="@android:color/white"
+    android:orientation="horizontal"
     app:layout_anchor="@id/bottom_sheet"
-    app:layout_anchorGravity="top|end"
-    app:pause_bg="#F44336"
-    app:play_bg="#4CAF50"/>
+    app:layout_anchorGravity="top|end">
+
+    <com.github.zagum.switchicon.SwitchIconView
+      android:id="@+id/camera_switch"
+      android:layout_width="54dp"
+      android:layout_height="54dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginRight="8dp"
+      android:padding="16dp"
+      android:background="@drawable/circle"
+      app:si_animation_duration="500"
+      app:si_disabled_alpha="1"
+      app:si_disabled_color="#fff"
+      app:si_enabled="false"
+      app:si_no_dash="false"
+      app:si_tint_color="#fff"
+      app:srcCompat="@drawable/ic_camera_front_white"/>
+    <com.github.zagum.switchicon.SwitchIconView
+      android:id="@+id/camera_flash"
+      android:layout_width="54dp"
+      android:layout_height="54dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginRight="8dp"
+      android:padding="16dp"
+      android:background="@drawable/circle"
+      app:si_animation_duration="500"
+      app:si_disabled_alpha="1"
+      app:si_disabled_color="#fff"
+      app:si_enabled="false"
+      app:si_no_dash="false"
+      app:si_tint_color="#fff"
+      app:srcCompat="@drawable/ic_flash_on_white"/>
+    <com.ohoussein.playpause.PlayPauseView
+      android:id="@+id/camera_play_pause"
+      android:layout_width="54dp"
+      android:layout_height="54dp"
+      android:padding="16dp"
+      android:foreground="?android:selectableItemBackground"
+      app:fill_color="@android:color/white"
+      app:pause_bg="#F44336"
+      app:play_bg="#4CAF50"/>
+  </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>

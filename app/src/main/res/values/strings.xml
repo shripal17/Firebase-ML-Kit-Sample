@@ -1,3 +1,4 @@
 <resources>
   <string name="app_name">Firebase Samples</string>
+  <string name="app_description">This app currently has sample code to implement Firebase\'s ML Kit I plan to include samples for other Firebase Products/Services in the near future</string>
 </resources>
