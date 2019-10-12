@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:app="http://schemas.android.com/apk/res-auto"
-  xmlns:tools="http://schemas.android.com/tools"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  tools:context=".MainActivity">
 
   <android.support.design.widget.AppBarLayout
     android:layout_width="match_parent"
@@ -64,14 +57,14 @@
       app:si_animation_duration="500"
       app:si_disabled_alpha="1"
       app:si_disabled_color="#fff"
-      app:si_enabled="false"
+      app:si_enabled="true"
       app:si_no_dash="false"
       app:si_tint_color="#fff"
       app:srcCompat="@drawable/ic_flash_on_white"/>
     <com.ohoussein.playpause.PlayPauseView
       android:id="@+id/camera_play_pause"
-      android:layout_width="54dp"
-      android:layout_height="54dp"
+      android:layout_width="60dp"
+      android:layout_height="60dp"
       android:padding="16dp"
       android:foreground="?android:selectableItemBackground"
       app:fill_color="@android:color/white"
@@ -79,4 +72,3 @@
       app:play_bg="#4CAF50"/>
   </LinearLayout>
 
-</android.support.design.widget.CoordinatorLayout>
